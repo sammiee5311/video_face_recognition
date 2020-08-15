@@ -4,6 +4,7 @@
 + download main.py and requirements.txt
 + download required libraries(simply write 'pip install -r requirements.txt' on console)
 + put images file you want to recognize faces in 'images' folder(or any where you want)
++ change the images names to person's name that you want to recognize
 + write the images path and the video file name on main.py
 
 ## Requirements
