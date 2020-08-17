@@ -4,15 +4,6 @@ import face_recognition
 from glob import glob
 
 
-def find_face_encodings(images):
-    encodings_list = []
-    for img in images:
-        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-        encodings_list.append(face_recognition.face_encodings(img)[0])
-
-    return encodings_list
-
-
 class face_recog:
     def __init__(self, path, video_file):
         self.path = path
@@ -20,6 +11,14 @@ class face_recog:
         self.names_list = []
         self.video_file = video_file
         self.people = glob(path + '/*.jpg')
+
+    def find_face_encodings(self):
+        encodings_list = []
+        for img in self.images:
+            img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+            encodings_list.append(face_recognition.face_encodings(img)[0])
+
+        return encodings_list
 
     def start_face_recog(self):
         for person in self.people:
@@ -29,7 +28,7 @@ class face_recog:
 
         print(self.names_list)
 
-        encode_known = find_face_encodings(self.images)
+        encode_known = self.find_face_encodings()
         print('Encoding Complete')
 
         self.video_capture(encode_known, self.video_file)
