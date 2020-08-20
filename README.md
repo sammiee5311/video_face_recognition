@@ -1,4 +1,4 @@
-# video_face_recognition
+# video_face_recognition(+blur)
 
 ## How to use
 + download main.py and requirements.txt
