@@ -6,6 +6,7 @@
 + put images file you want to recognize faces in 'images' folder(or any where you want)
 + change the images names to person's name that you want to recognize
 + write the images path ,the video file name and names that you want to blur on main.py
++ if video file name is empty, it's automatically changed to Webcam.
 
 ## Requirements
 + numpy
