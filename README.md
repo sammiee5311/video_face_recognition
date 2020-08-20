@@ -18,7 +18,7 @@
 ## Images
 
 ### if people are blurred, their names will be changed to UNKNOWN.
-![](./images/blur.jpg)
+![](./images/blur.png)
 
 ### Reference
 + https://github.com/ageitgey/face_recognition
