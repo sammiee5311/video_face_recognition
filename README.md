@@ -5,7 +5,7 @@
 + download required libraries(simply write 'pip install -r requirements.txt' on console)
 + put images file you want to recognize faces in 'images' folder(or any where you want)
 + change the images names to person's name that you want to recognize
-+ write the images path and the video file name on main.py
++ write the images path ,the video file name and names that you want to blur on main.py
 
 ## Requirements
 + numpy
@@ -15,7 +15,7 @@
 + face-recognition
 
 ## Images
-![](/iamges/blur.jpg)
+![](./images/blur.jpg)
 
 ### Reference
 + https://github.com/ageitgey/face_recognition
