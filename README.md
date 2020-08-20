@@ -15,7 +15,7 @@
 + face-recognition
 
 ## Images
-![](./iamges/blur.jpg)
+![](/iamges/blur.jpg)
 
 ### Reference
 + https://github.com/ageitgey/face_recognition
