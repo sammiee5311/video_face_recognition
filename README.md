@@ -16,6 +16,8 @@
 + face-recognition
 
 ## Images
+
+### if people are blurred, their names will be changed to UNKNOWN.
 ![](./images/blur.jpg)
 
 ### Reference
