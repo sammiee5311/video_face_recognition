@@ -14,6 +14,9 @@
 + dlib
 + face-recognition
 
+## Images
+![](./iamges/blur.png)
+
 ### Reference
 + https://github.com/ageitgey/face_recognition
 + https://youtu.be/sz25xxF_AVE
