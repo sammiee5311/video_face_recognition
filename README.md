@@ -17,3 +17,4 @@
 ### Reference
 + https://github.com/ageitgey/face_recognition
 + https://youtu.be/sz25xxF_AVE
++ https://www.pyimagesearch.com/2020/04/06/blur-and-anonymize-faces-with-opencv-and-python/
