@@ -5,7 +5,7 @@ from glob import glob
 
 
 class face_recog:
-    def __init__(self, path, video_file, names):
+    def __init__(self, path, video_file='', names=[]):
         self.path = path
         self.images = []
         self.names_list = []
